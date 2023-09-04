@@ -13,6 +13,7 @@ export interface Game {
     name: string;
     background_image: string
     parent_platforms: { platform: Platform }[]  // design issue of this API data: parent_platforms is an array of objects that have a plaform property
+    metacritic: number;
 }
 
 interface FetchGamesResponse {
